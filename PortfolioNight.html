@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    		<meta charset="UTF-8">
+    		    	<meta name="description" content="Julia Sido Graphic Designer">
+            		<meta name="keywords" content="Julia Sido, Graphic Design, design, designer, Branding">
+            		<meta name="author" content="Julia Sido">
+            		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+                    <meta name="viewport" content="width=device-width" />
+        <title> Gallery | J.S </title>
+   
+        <link rel="stylesheet" href="css.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+          <![endif]-->
+
+          <link type="text/css" rel="stylesheet" href="css/lightGallery.css" />                    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/lightGallery.js"></script>
+<script src='js/scrollReveal.js'></script>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        </head>
+</head>
+<body>
+     <div class="greybar">
+     </div>
+     <div class="whitebar">
+     </div>
+    <div id="page-wrapper"> 
+        <div class="navigrationContainer">
+            <div id="logonav">                         
+                 <span class="logo"><a href="index.html"><img src="images/logo/logo.png" alt="logo" title="Home"></a></span>                        
+                     <span class="contact"><a href="contact.html">contact</a></span>                                                                                 
+            </div>
+        </div>
+       <div class="margins">
+
+    <div id="description">     
+        <h1><span class="h1bullet"></span> StepAway <span class="h1bullet"></span></h1> 
+            <p>A senior degree project helps the busy design professionals to take meaningful breaks. It is an intuitive application that analyzes the user’s working pattern on the computer and sends the user break notifications on their phone, generated based on their working pattern. <a href="http://www.stepaway.co.uk"  target="_blank"> Go to the website </a></p>    
+    </div>  
+    
+    <div id="movie">
+        <iframe src="http://player.vimeo.com/video/93043225?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+    <div id="description">     
+            <h1><span class="h1bullet"></span> Propping-Up Fukushima Daiichi Nuclear Plant Animation<span class="h1bullet"></span></h1> 
+            <p>The Fukushima Daiichi nuclear disaster, following the Tōhoku earthquake and tsunami on March 11, 2011. Only a couple of months ago, Tokyo Electric, admitted that groundwater that was contaminated by radiation from the 2011 meltdown is leaking into the Pacific Ocean.</p>    
+    </div>  
+    
+    <div id="movie">
+        <iframe src="http://player.vimeo.com/video/92522467?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+
+    <div id="description">   
+      <h1><span class="h1bullet"></span> Propping-Up Fukushima Daiichi Nuclear Plant Interactive<span class="h1bullet"></span></h1> 
+        <p>The interactive targets additional audience and provides sources to explore further on the subject.</p>  
+    </div>  
+        
+    <div id="movie">
+      <iframe src="http://player.vimeo.com/video/92300901?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="800" height="528" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+</div> 
+ <script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightGallery").lightGallery(); 
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightGallery").lightGallery({
+      mode:'slide',
+      useCSS : true,
+      easing: 'ease',//'cubic-bezier(0.25, 0, 0.25, 1)',//
+      speed: 1000,
+      loop: false,
+      auto: false,
+      pause: 4000,
+      escKey:true,
+ 
+      exThumbImage: false,
+      thumbnail: true,
+      caption:false,
+      desc:false,
+      controls:true,
+      hideControlOnEnd:false,
+      mobileSrc: false,
+      mobileSrcMaxWidth :640,
+ 
+      //touch
+      swipeThreshold: 50,
+  
+      rel:false,
+      dynamic:false,
+      dynamicEl : [],
+ 
+      //video
+      vimeoColor : 'CCCCCC',
+      videoAutoplay:true,
+      videoMaxWidth:855,
+ 
+      //callbacks
+      onOpen: function() {},
+      onSlideBefore: function() {},
+      onSlideAfter: function() {},
+      onSlideNext: function() {},
+      onSlidePrev: function() {},
+      onBeforeClose: function(){},
+      onCloseAfter: function(){}
+    );
+  });
+</script> 
+
+</body>
+</html>
